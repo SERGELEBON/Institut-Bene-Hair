@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Vidéo de fond */}
       <div className="absolute inset-0">
         <video
-          src="/videos/hero-sekoba.mp4"
+          src="/videos/hero-bene.mp4"
           className="h-full w-full object-cover"
           autoPlay
           muted
@@ -19,9 +19,9 @@ export default function Hero() {
       </div>
 
       {/* Voiles & dégradés */}
-      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[rgba(19,12,5,0.62)] via-[rgba(19,12,5,0.24)] to-transparent" />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(34,24,10,0.38)_0%,rgba(34,24,10,0.58)_34%,rgba(34,24,10,0.8)_100%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(24,16,6,0.26),transparent_42%),radial-gradient(circle_at_top,rgba(242,204,108,0.1),transparent_26%),radial-gradient(circle_at_bottom_left,rgba(200,152,48,0.16),transparent_32%)]" />
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[rgba(19,18,9,0.62)] via-[rgba(19,18,9,0.24)] to-transparent" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(30,29,16,0.38)_0%,rgba(30,29,16,0.58)_34%,rgba(30,29,16,0.8)_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(22,21,10,0.26),transparent_42%),radial-gradient(circle_at_top,rgba(242,204,108,0.1),transparent_26%),radial-gradient(circle_at_bottom_left,rgba(200,152,48,0.16),transparent_32%)]" />
 
       {/* Contenu */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
@@ -29,13 +29,13 @@ export default function Hero() {
           <div className="mx-auto mb-6 flex max-w-[32rem] items-center justify-center gap-3 text-gold-300/78 sm:gap-4">
             <span className="h-px flex-1 bg-gradient-to-r from-transparent to-gold-300/80" />
             <span className="whitespace-nowrap text-[10px] font-light uppercase tracking-[0.28em] text-gold-300/80 sm:text-xs sm:tracking-[0.34em]">
-              Salon Premium
+              Institut de Beauté
             </span>
             <span className="h-px flex-1 bg-gradient-to-l from-transparent to-gold-300/80" />
           </div>
 
           <h1 className="mb-6 font-serif text-[2.95rem] font-bold leading-[0.9] text-white drop-shadow-[0_12px_34px_rgba(0,0,0,0.34)] sm:mb-7 sm:text-[3.85rem] md:text-[4.55rem] lg:text-[5.45rem]">
-            Sekoba Coiffure
+            Institut Bene Hair
           </h1>
 
           <p className="mx-auto mb-6 max-w-[26ch] font-serif text-[1.45rem] font-medium italic leading-[1.02] text-gold-200 drop-shadow-[0_10px_26px_rgba(0,0,0,0.28)] sm:mb-7 sm:text-[1.95rem] md:text-[2.35rem] lg:text-[2.7rem]">

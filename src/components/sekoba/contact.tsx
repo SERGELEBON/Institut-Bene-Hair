@@ -6,6 +6,7 @@ import {
   FaClock,
   FaComments,
   FaEnvelope,
+  FaInstagram,
   FaLocationArrow,
   FaMapMarkerAlt,
   FaPaperPlane,
@@ -15,8 +16,8 @@ import {
 } from "./icons";
 
 const MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Marcory%20Zone%204%20Abidjan%20pr%C3%A8s%20h%C3%B4tel%20Ibis";
-const WHATSAPP_URL = "https://wa.me/2250707716957";
+  "https://www.google.com/maps/search/?api=1&query=Institut%20Bene%20Hair%20Abidjan";
+const WHATSAPP_URL = "https://wa.me/2250707837795";
 
 const HOURS = [
   { label: "Lun–Jeu", time: "09:00 - 18:00", closed: false },
@@ -26,7 +27,7 @@ const HOURS = [
 ];
 
 const INFO_CARD =
-  "group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(58,40,14,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 hover:border-gold-500/32 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500";
+  "group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(44,43,19,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 hover:border-gold-500/32 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500";
 
 const INFO_ICON_BOX =
   "flex h-8 w-8 shrink-0 items-center justify-center rounded-[0.7rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_8px_18px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]";
@@ -79,7 +80,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.42),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(200,152,48,0.12),transparent_34%),linear-gradient(180deg,#fcf7ec_0%,#f8edd8_60%,#f4e0c0_100%)] px-4 py-10 sm:px-6 sm:py-12 md:px-7 md:py-14 lg:px-8 lg:py-[4.5rem] xl:py-20"
+      className="overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.42),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(200,152,48,0.12),transparent_34%),linear-gradient(180deg,#fbf9f3_0%,#f5f1e6_60%,#ede7d5_100%)] px-4 py-10 sm:px-6 sm:py-12 md:px-7 md:py-14 lg:px-8 lg:py-[4.5rem] xl:py-20"
     >
       <div className="mx-auto max-w-[1440px]">
         {/* En-tête */}
@@ -110,7 +111,7 @@ export default function Contact() {
                   href={MAPS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Voir l'itinéraire vers Marcory, quartier Zone 4, Abidjan sur Google Maps"
+                  aria-label="Voir l'itinéraire vers Institut Bene Hair à Abidjan sur Google Maps"
                   className={`${INFO_CARD} block`}
                 >
                   <div className={INFO_ICON_BOX}>
@@ -122,10 +123,10 @@ export default function Contact() {
                     </p>
                     <div className="mt-0.5">
                       <p className="break-words text-[0.98rem] font-semibold leading-snug text-brown-900">
-                        Marcory, Zone 4
+                        Abidjan, Côte d&apos;Ivoire
                       </p>
                       <p className="break-words text-[0.74rem] leading-snug tracking-tight text-brown-500">
-                        À proximité de l&apos;hôtel Ibis et de l&apos;hôtel Getellemane
+                        Institut de beauté &amp; de coiffure
                       </p>
                     </div>
                   </div>
@@ -135,8 +136,8 @@ export default function Contact() {
               {/* Téléphone */}
               <Reveal y={20}>
                 <a
-                  href="tel:+2252722507000"
-                  aria-label="Appeler le +225 27 22 50 70 00"
+                  href="tel:+225707837795"
+                  aria-label="Appeler le 07 07 83 77 95"
                   className={`${INFO_CARD} block`}
                 >
                   <div className={INFO_ICON_BOX}>
@@ -148,36 +149,38 @@ export default function Contact() {
                     </p>
                     <div className="mt-0.5">
                       <p className="break-words text-[0.98rem] font-semibold leading-snug text-brown-900">
-                        +225 27 22 50 70 00
+                        07 07 83 77 95
                       </p>
                       <p className="text-[0.78rem] leading-snug text-brown-500">
-                        Du lundi au samedi
+                        01 01 22 09 61
                       </p>
                     </div>
                   </div>
                 </a>
               </Reveal>
 
-              {/* Email */}
+              {/* Instagram */}
               <Reveal y={20}>
                 <a
-                  href="mailto:contact@sekoba-coiffure.ci"
-                  aria-label="Envoyer un email à contact@sekoba-coiffure.ci"
+                  href="https://www.instagram.com/benehair1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Suivre Institut Bene Hair sur Instagram (@benehair1)"
                   className={`${INFO_CARD} block`}
                 >
                   <div className={INFO_ICON_BOX}>
-                    <FaEnvelope className="text-[0.8rem]" />
+                    <FaInstagram className="text-[0.8rem]" />
                   </div>
                   <div className="mt-2 min-w-0">
                     <p className="text-[0.66rem] font-semibold uppercase tracking-[0.14em] text-gold-700">
-                      Email
+                      Instagram
                     </p>
                     <div className="mt-0.5">
                       <p className="[overflow-wrap:anywhere] [word-break:break-word] text-[0.98rem] font-semibold leading-snug text-brown-900">
-                        contact@sekoba-coiffure.ci
+                        @benehair1
                       </p>
                       <p className="text-[0.78rem] leading-snug text-brown-500">
-                        Réponse sous 24h
+                        Suivez-nous au quotidien
                       </p>
                     </div>
                   </div>
@@ -220,20 +223,20 @@ export default function Contact() {
 
             {/* Carte Google Maps */}
             <Reveal y={24}>
-              <div className="flex min-h-[240px] flex-1 flex-col overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] shadow-[0_18px_40px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:min-h-[260px] md:min-h-[280px] lg:min-h-[320px]">
+              <div className="flex min-h-[240px] flex-1 flex-col overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] shadow-[0_18px_40px_rgba(44,43,19,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:min-h-[260px] md:min-h-[280px] lg:min-h-[320px]">
                 <span className="pointer-events-none block h-px shrink-0 bg-[linear-gradient(90deg,transparent,rgba(232,176,64,0.6),transparent)]" />
                 <div className="flex shrink-0 items-center justify-between gap-2 px-4 py-2.5 sm:gap-3 lg:px-5 lg:py-3.5">
                   <div className="flex min-w-0 items-start gap-2 sm:items-center sm:gap-2.5">
                     <FaMapMarkerAlt className="mt-0.5 shrink-0 text-[0.85rem] text-gold-600 sm:mt-0" />
                     <p className="text-[0.85rem] font-semibold leading-snug text-brown-900 lg:truncate">
-                      Marcory, Zone 4, Abidjan
+                      Abidjan, Côte d&apos;Ivoire
                     </p>
                   </div>
                   <a
                     href={MAPS_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Voir l'itinéraire vers Marcory, quartier Zone 4, Abidjan sur Google Maps"
+                    aria-label="Voir l'itinéraire vers Institut Bene Hair à Abidjan sur Google Maps"
                     className="inline-flex min-h-[2.75rem] shrink-0 items-center gap-2 rounded-full border border-gold-400/70 bg-gold-300/80 px-3.5 py-1.5 text-[0.78rem] font-semibold text-brown-900 transition-colors duration-200 hover:border-gold-400 hover:bg-gold-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 lg:min-h-0"
                   >
                     <FaLocationArrow className="text-[0.68rem]" />
@@ -247,9 +250,9 @@ export default function Contact() {
                     style={{ border: 0 }}
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps?ll=5.2912282,-3.9735415&z=17&output=embed"
+                    src="https://www.google.com/maps?ll=5.359952,-4.008399&z=12&output=embed"
                     allowFullScreen
-                    title="Carte de localisation de Sekoba Coiffure — Marcory, Zone 4, Abidjan"
+                    title="Carte de localisation d'Institut Bene Hair — Abidjan, Côte d'Ivoire"
                   />
                 </div>
               </div>
@@ -261,7 +264,7 @@ export default function Contact() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-[3.6rem] w-full shrink-0 items-center justify-center gap-2.5 rounded-full border border-brown-900/10 bg-brown-900 px-6 py-3.5 text-[0.95rem] font-semibold text-cream-50 shadow-[0_12px_26px_rgba(58,40,14,0.22)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brown-800 hover:shadow-[0_16px_32px_rgba(58,40,14,0.28)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 active:translate-y-0"
+                className="inline-flex min-h-[3.6rem] w-full shrink-0 items-center justify-center gap-2.5 rounded-full border border-brown-900/10 bg-brown-900 px-6 py-3.5 text-[0.95rem] font-semibold text-cream-50 shadow-[0_12px_26px_rgba(44,43,19,0.22)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brown-800 hover:shadow-[0_16px_32px_rgba(44,43,19,0.28)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 active:translate-y-0"
               >
                 <FaWhatsapp className="text-[1.1rem] text-[#c7f0d0]" />
                 Réserver sur WhatsApp
@@ -272,7 +275,7 @@ export default function Contact() {
           {/* Formulaire */}
           <Reveal className="self-start">
             <form
-              className="relative isolate overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-5 shadow-[0_20px_46px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:p-6 lg:p-7"
+              className="relative isolate overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-5 shadow-[0_20px_46px_rgba(44,43,19,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:p-6 lg:p-7"
               onSubmit={handleSubmit}
             >
               <span className="pointer-events-none absolute inset-x-0 top-0 h-px bg-[linear-gradient(90deg,transparent,rgba(232,176,64,0.6),transparent)]" />

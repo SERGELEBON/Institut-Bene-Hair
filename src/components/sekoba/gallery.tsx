@@ -30,54 +30,54 @@ const ITEMS: GalleryItem[] = [
     id: "boucles-volume-glamour",
     title: "Boucles volume glamour",
     category: "Mise en forme",
-    image: "/images/galerie/3.png",
-    alt: "Boucles volume glamour — Mise en forme réalisé chez Sekoba Coiffure",
+    image: "/images/galerie/3-bene.png",
+    alt: "Boucles volume glamour — Mise en forme réalisé chez Institut Bene Hair",
     blurPosition: "center top",
     objectPosition: "center top",
     span: "md:col-span-2 md:row-span-2",
-    width: 1024,
-    height: 1365,
+    width: 768,
+    height: 1344,
   },
   {
     id: "balayage-caramel-ondule",
     title: "Balayage caramel ondulé",
     category: "Coloration",
-    image: "/images/galerie/4.png",
-    alt: "Balayage caramel ondulé — Coloration réalisé chez Sekoba Coiffure",
+    image: "/images/galerie/4-bene.png",
+    alt: "Balayage caramel ondulé — Coloration réalisé chez Institut Bene Hair",
     blurPosition: "center 54%",
     objectPosition: "center 54%",
     span: "md:row-span-2",
-    width: 1024,
-    height: 1536,
+    width: 768,
+    height: 1344,
   },
   {
     id: "box-braids-blond-miel",
     title: "Box braids blond miel",
     category: "Tresses",
-    image: "/images/galerie/2.png",
-    alt: "Box braids blond miel — Tresses réalisé chez Sekoba Coiffure",
+    image: "/images/galerie/2-bene.png",
+    alt: "Box braids blond miel — Tresses réalisé chez Institut Bene Hair",
     blurPosition: "center 26%",
     objectPosition: "center 26%",
     span: "",
-    width: 1024,
-    height: 1365,
+    width: 768,
+    height: 1344,
   },
   {
     id: "nattes-couchees-ajourees",
     title: "Nattes couchées ajourées",
     category: "Tresses",
-    image: "/images/galerie/1.png",
-    alt: "Nattes couchées ajourées — Tresses réalisé chez Sekoba Coiffure",
+    image: "/images/galerie/1-bene.png",
+    alt: "Nattes couchées ajourées — Tresses réalisé chez Institut Bene Hair",
     blurPosition: "center center",
     objectPosition: "center center",
     span: "",
-    width: 1024,
-    height: 1365,
+    width: 768,
+    height: 1344,
   },
 ];
 
 const GALLERY_BTN =
-  "group relative overflow-hidden rounded-[1.9rem] border border-gold-500/12 bg-[rgba(255,249,241,0.74)] shadow-[0_20px_50px_rgba(58,40,14,0.1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100";
+  "group relative overflow-hidden rounded-[1.9rem] border border-gold-500/12 bg-[rgba(255,249,241,0.74)] shadow-[0_20px_50px_rgba(44,43,19,0.1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100";
 
 export default function Gallery() {
   const [isOpen, setIsOpen] = useState(false);
@@ -119,12 +119,12 @@ export default function Gallery() {
   return (
     <section
       id="galerie"
-      className="relative overflow-hidden bg-[linear-gradient(180deg,#fcf7ec_0%,#f8edd8_56%,#f4e0c0_100%)] px-5 py-14 sm:px-7 sm:py-16 lg:px-8 lg:py-20"
+      className="relative overflow-hidden bg-[linear-gradient(180deg,#fbf9f3_0%,#f5f1e6_56%,#ede7d5_100%)] px-5 py-14 sm:px-7 sm:py-16 lg:px-8 lg:py-20"
     >
       {/* Décor de fond */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.48),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(200,152,48,0.12),transparent_34%)]" />
-        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(58,40,14,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
+        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(44,43,19,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
       </div>
 
       {/* En-tête */}
@@ -173,7 +173,7 @@ export default function Gallery() {
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 style={{ objectPosition: item.objectPosition }}
               />
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col items-start bg-[linear-gradient(180deg,transparent_0%,rgba(24,16,6,0.24)_46%,rgba(24,16,6,0.82)_100%)] px-4 pb-4 pt-16 text-left transition-all duration-300 sm:px-5 sm:pb-5">
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col items-start bg-[linear-gradient(180deg,transparent_0%,rgba(18,17,9,0.24)_46%,rgba(18,17,9,0.82)_100%)] px-4 pb-4 pt-16 text-left transition-all duration-300 sm:px-5 sm:pb-5">
                 <span className="text-[0.56rem] font-semibold uppercase tracking-[0.26em] text-gold-300/95 sm:text-[0.6rem]">
                   {item.category}
                 </span>
@@ -192,7 +192,7 @@ export default function Gallery() {
         y={18}
       >
         <a
-          href={`https://wa.me/2250707716957?text=${encodeURIComponent(
+          href={`https://wa.me/2250707837795?text=${encodeURIComponent(
             "Bonjour, j'ai vu votre galerie et je souhaite réserver une prestation."
           )}`}
           target="_blank"
@@ -203,10 +203,10 @@ export default function Gallery() {
           Réserver ma prestation
         </a>
         <a
-          href="https://www.instagram.com/sekoba_coiffure_abidjan/"
+          href="https://www.instagram.com/benehair1/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex min-h-[54px] w-full items-center justify-center gap-2.5 rounded-full border border-gold-500/22 bg-cream-50/90 px-7 text-sm font-semibold uppercase tracking-[0.08em] text-brown-900 shadow-[0_7px_18px_rgba(58,40,14,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_12px_24px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:w-auto"
+          className="inline-flex min-h-[54px] w-full items-center justify-center gap-2.5 rounded-full border border-gold-500/22 bg-cream-50/90 px-7 text-sm font-semibold uppercase tracking-[0.08em] text-brown-900 shadow-[0_7px_18px_rgba(44,43,19,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_12px_24px_rgba(44,43,19,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:w-auto"
         >
           <FaInstagram className="text-[1.05rem] text-gold-600" />
           Voir plus sur Instagram
@@ -217,7 +217,7 @@ export default function Gallery() {
       <AnimatePresence>
         {isOpen && current && (
           <motion.div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(19,12,5,0.86)] px-3 py-4 backdrop-blur-[18px] sm:px-6 sm:py-6"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(19,18,9,0.86)] px-3 py-4 backdrop-blur-[18px] sm:px-6 sm:py-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -266,7 +266,7 @@ export default function Gallery() {
                 <div className="overflow-hidden rounded-[1.4rem] border border-white/15 shadow-[0_36px_110px_rgba(0,0,0,0.55)]">
                   <Image
                     src={current.image}
-                    alt={`${current.title} — ${current.category} réalisé chez Sekoba Coiffure`}
+                    alt={`${current.title} — ${current.category} réalisé chez Institut Bene Hair`}
                     width={current.width}
                     height={current.height}
                     priority

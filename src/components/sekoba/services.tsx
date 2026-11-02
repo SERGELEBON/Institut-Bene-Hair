@@ -2,7 +2,7 @@ import Image from "next/image";
 import Reveal from "./reveal";
 import { FaPhoneAlt, FaRegClock, FaWhatsapp } from "./icons";
 
-const WHATSAPP_BASE = "https://wa.me/2250707716957";
+const WHATSAPP_BASE = "https://wa.me/2250707837795";
 
 type Service = {
   slug: string;
@@ -20,7 +20,7 @@ const SERVICES: Service[] = [
     duration: "2h - 6h",
     description:
       "Des coiffures protectrices et posées avec précision pour un rendu net, durable et adapté à votre style.",
-    image: "/images/services/tresses.png",
+    image: "/images/services/tresses-bene.png",
     objectPosition: "center 35%",
   },
   {
@@ -29,7 +29,7 @@ const SERVICES: Service[] = [
     duration: "2h - 4h",
     description:
       "De la longueur, du volume et un rendu naturel grâce à des poses soignées et adaptées à votre base.",
-    image: "/images/services/extensions.png",
+    image: "/images/services/extensions-bene.png",
     objectPosition: "center 44%",
   },
   {
@@ -38,7 +38,7 @@ const SERVICES: Service[] = [
     duration: "1h30 - 4h",
     description:
       "Des nuances, des reflets et une mise en forme pensée pour sublimer votre chevelure avec harmonie.",
-    image: "/images/services/coloration.png",
+    image: "/images/services/coloration-bene.png",
     objectPosition: "center 35%",
   },
   {
@@ -47,7 +47,7 @@ const SERVICES: Service[] = [
     duration: "1h - 3h",
     description:
       "Pose, coupe, ajustement et confection de perruques pour un rendu net, confortable et bien structuré.",
-    image: "/images/services/perruques.png",
+    image: "/images/services/perruques-bene.png",
     objectPosition: "center 38%",
   },
   {
@@ -56,7 +56,7 @@ const SERVICES: Service[] = [
     duration: "45min - 2h",
     description:
       "Des soins capillaires pensés pour nourrir, entretenir et préserver la beauté de vos cheveux au quotidien.",
-    image: "/images/services/soins.png",
+    image: "/images/services/soins-bene.png",
     objectPosition: "center 42%",
   },
   {
@@ -65,13 +65,13 @@ const SERVICES: Service[] = [
     duration: "45min - 2h",
     description:
       "Des mains et des pieds soignées avec des finitions nettes, durables et élégantes pour toutes les envies.",
-    image: "/images/services/onglerie.png",
+    image: "/images/services/onglerie-bene.png",
     objectPosition: "center 48%",
   },
 ];
 
 const DETAIL_BTN =
-  "inline-flex min-h-[3.35rem] w-full items-center justify-center rounded-[0.9rem] border border-gold-500/20 bg-cream-50/90 px-3 py-2.5 text-center text-[0.72rem] font-semibold uppercase tracking-[0.05em] text-brown-900 shadow-[0_7px_18px_rgba(58,40,14,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_12px_24px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200";
+  "inline-flex min-h-[3.35rem] w-full items-center justify-center rounded-[0.9rem] border border-gold-500/20 bg-cream-50/90 px-3 py-2.5 text-center text-[0.72rem] font-semibold uppercase tracking-[0.05em] text-brown-900 shadow-[0_7px_18px_rgba(44,43,19,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_12px_24px_rgba(44,43,19,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200";
 
 const RESA_BTN =
   "inline-flex min-h-[3.35rem] w-full items-center justify-center rounded-[0.9rem] border border-gold-400/70 bg-gold-300/80 px-3 py-2.5 text-center text-[0.72rem] font-semibold uppercase tracking-[0.05em] text-brown-900 shadow-[0_9px_21px_rgba(200,152,48,0.18),inset_0_1px_0_rgba(255,245,221,0.45)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-400 hover:bg-gold-300 hover:text-brown-900 hover:shadow-[0_13px_28px_rgba(168,124,34,0.22),inset_0_1px_0_rgba(255,245,221,0.36)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200";
@@ -80,12 +80,12 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="relative overflow-hidden bg-[linear-gradient(180deg,#fcf7ec_0%,#f8edd8_58%,#f4e0c0_100%)] px-5 py-11 sm:px-7 sm:py-12 lg:px-8 lg:py-14"
+      className="relative overflow-hidden bg-[linear-gradient(180deg,#fbf9f3_0%,#f5f1e6_58%,#ede7d5_100%)] px-5 py-11 sm:px-7 sm:py-12 lg:px-8 lg:py-14"
     >
       {/* Décor de fond */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.34)_0%,rgba(255,251,244,0.08)_48%,rgba(200,152,48,0.08)_100%)]" />
-        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(58,40,14,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
+        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(44,43,19,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1680px]">
@@ -107,7 +107,7 @@ export default function Services() {
         <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3 xl:gap-6">
           {SERVICES.map((service) => (
             <Reveal key={service.slug}>
-              <article className="group flex h-full flex-col overflow-hidden rounded-[1.35rem] border border-gold-500/16 bg-[linear-gradient(180deg,rgba(255,251,244,0.98)_0%,rgba(251,245,232,0.95)_100%)] shadow-[0_18px_44px_rgba(58,40,14,0.1)] transition-transform duration-300 ease-out hover:-translate-y-[3px]">
+              <article className="group flex h-full flex-col overflow-hidden rounded-[1.35rem] border border-gold-500/16 bg-[linear-gradient(180deg,rgba(255,251,244,0.98)_0%,rgba(251,245,232,0.95)_100%)] shadow-[0_18px_44px_rgba(44,43,19,0.1)] transition-transform duration-300 ease-out hover:-translate-y-[3px]">
                 <div className="relative overflow-hidden bg-cream-200">
                   <div className="relative aspect-[1.08/1] overflow-hidden sm:aspect-[1.14/1]">
                     <Image
@@ -120,7 +120,7 @@ export default function Services() {
                       style={{ objectPosition: service.objectPosition }}
                     />
                   </div>
-                  <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(58,40,14,0)_0%,rgba(58,40,14,0.08)_100%)]" />
+                  <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(44,43,19,0)_0%,rgba(44,43,19,0.08)_100%)]" />
                 </div>
 
                 <div className="flex flex-1 flex-col px-7 pb-7 pt-7 sm:px-8">
@@ -158,7 +158,7 @@ export default function Services() {
 
         {/* Bannière sur-mesure */}
         <Reveal className="mt-10">
-          <div className="rounded-[1.85rem] border border-gold-500/16 bg-[rgba(255,251,244,0.86)] px-6 py-7 shadow-[0_20px_56px_rgba(58,40,14,0.09)] sm:px-8 sm:py-8 lg:px-10 lg:py-9">
+          <div className="rounded-[1.85rem] border border-gold-500/16 bg-[rgba(255,251,244,0.86)] px-6 py-7 shadow-[0_20px_56px_rgba(44,43,19,0.09)] sm:px-8 sm:py-8 lg:px-10 lg:py-9">
             <div className="flex flex-col gap-6 xl:grid xl:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] xl:items-center xl:gap-8">
               <div className="max-w-[46rem]">
                 <p className="mb-2 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-gold-500">
@@ -175,8 +175,8 @@ export default function Services() {
 
               <div className="flex w-full flex-col gap-3 sm:flex-row xl:justify-self-end xl:w-auto">
                 <a
-                  href="tel:+2252722507000"
-                  className="group inline-flex min-h-[74px] w-full items-center gap-3 rounded-[1rem] border border-gold-500/28 bg-cream-50 px-5 py-3 text-brown-900 transition-all duration-200 hover:border-gold-500 hover:bg-white hover:shadow-[0_12px_28px_rgba(58,40,14,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:flex-1 xl:w-auto xl:flex-none"
+                  href="tel:+225707837795"
+                  className="group inline-flex min-h-[74px] w-full items-center gap-3 rounded-[1rem] border border-gold-500/28 bg-cream-50 px-5 py-3 text-brown-900 transition-all duration-200 hover:border-gold-500 hover:bg-white hover:shadow-[0_12px_28px_rgba(44,43,19,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:flex-1 xl:w-auto xl:flex-none"
                 >
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gold-500/10 text-[0.95rem] text-gold-600 transition-colors duration-200 group-hover:bg-gold-500/16">
                     <FaPhoneAlt />
@@ -186,7 +186,7 @@ export default function Services() {
                       Reservation
                     </span>
                     <span className="mt-1 whitespace-nowrap text-[0.9rem] font-semibold leading-none text-brown-900 sm:text-[0.96rem]">
-                      +225 27 22 50 70 00
+                      07 07 83 77 95
                     </span>
                   </span>
                 </a>
@@ -197,7 +197,7 @@ export default function Services() {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex min-h-[74px] w-full items-center gap-3 rounded-[1rem] border border-gold-400/70 bg-gold-300/80 px-5 py-3 text-brown-900 transition-all duration-200 hover:border-gold-400 hover:bg-gold-300 hover:shadow-[0_12px_28px_rgba(58,40,14,0.14)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-300 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:flex-1 xl:w-auto xl:flex-none"
+                  className="group inline-flex min-h-[74px] w-full items-center gap-3 rounded-[1rem] border border-gold-400/70 bg-gold-300/80 px-5 py-3 text-brown-900 transition-all duration-200 hover:border-gold-400 hover:bg-gold-300 hover:shadow-[0_12px_28px_rgba(44,43,19,0.14)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-300 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:flex-1 xl:w-auto xl:flex-none"
                 >
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-brown-900/8 text-[0.95rem] transition-colors duration-200 group-hover:bg-brown-900/14">
                     <FaWhatsapp />

@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { FaBars, FaTimes } from "./icons";
 
-const WHATSAPP_URL = "https://wa.me/2250707716957";
+const WHATSAPP_URL = "https://wa.me/2250707837795";
 
 const LINKS = [
   { href: "/#apropos", label: "À propos" },
@@ -27,7 +27,7 @@ export default function Navbar() {
   const rightLinks = LINKS.slice(2);
 
   return (
-    <nav className="fixed top-0 w-full z-50 transition-smooth md:absolute bg-[linear-gradient(180deg,rgba(28,18,8,0.68)_0%,rgba(28,18,8,0.38)_58%,rgba(28,18,8,0)_100%)] md:bg-[linear-gradient(180deg,rgba(28,18,8,0.42)_0%,rgba(28,18,8,0.18)_58%,rgba(28,18,8,0)_100%)]">
+    <nav className="fixed top-0 w-full z-50 transition-smooth md:absolute bg-[linear-gradient(180deg,rgba(25,24,12,0.68)_0%,rgba(25,24,12,0.38)_58%,rgba(25,24,12,0)_100%)] md:bg-[linear-gradient(180deg,rgba(25,24,12,0.42)_0%,rgba(25,24,12,0.18)_58%,rgba(25,24,12,0)_100%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex h-[4.75rem] items-center justify-between gap-4">
           {/* Liens gauche + logo central — desktop */}
@@ -51,8 +51,8 @@ export default function Navbar() {
               >
                 <div className="relative h-[3.55rem] w-[3.55rem] lg:h-[3.9rem] lg:w-[3.9rem]">
                   <Image
-                    src="/images/logo-sekoba.png"
-                    alt="Logo Sekoba Coiffure"
+                    src="/images/logo-bene-hair.png"
+                    alt="Logo Institut Bene Hair"
                     fill
                     priority
                     sizes="(min-width: 1024px) 62px, 57px"
@@ -106,8 +106,8 @@ export default function Navbar() {
             >
               <div className="relative h-[3rem] w-[3rem]">
                 <Image
-                  src="/images/logo-sekoba.png"
-                  alt="Logo Sekoba Coiffure"
+                  src="/images/logo-bene-hair.png"
+                  alt="Logo Institut Bene Hair"
                   fill
                   priority
                   sizes="48px"
@@ -126,7 +126,7 @@ export default function Navbar() {
           {open && (
             <motion.div
               id="mobile-navigation"
-              className="rounded-[1.6rem] border border-gold-200/45 bg-[rgba(255,252,245,0.96)] shadow-[0_18px_48px_rgba(22,14,6,0.22)] backdrop-blur-md md:hidden"
+              className="rounded-[1.6rem] border border-gold-200/45 bg-[rgba(255,252,245,0.96)] shadow-[0_18px_48px_rgba(20,19,9,0.22)] backdrop-blur-md md:hidden"
               initial={{ opacity: 0, y: -12, scale: 0.98 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -10, scale: 0.985 }}

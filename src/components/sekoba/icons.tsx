@@ -1,7 +1,7 @@
 import type { SVGProps } from "react";
 
 /**
- * Icônes SVG — tracés identiques à ceux utilisés sur sekoba-coiffure.ci
+ * Icônes SVG — réseau sociaux * Icônes SVG — tracés identiques à ceux utilisés sur sekoba-coiffure.ci utilitaires du site Institut Bene Hair
  * (bibliothèque react-icons / Font Awesome 5).
  */
 

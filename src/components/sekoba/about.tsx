@@ -5,12 +5,12 @@ export default function About() {
   return (
     <section
       id="apropos"
-      className="relative overflow-hidden bg-[linear-gradient(180deg,#fcf7ec_0%,#f8edd8_60%,#f4e0c0_100%)] px-5 py-14 sm:px-7 sm:py-16 lg:px-8 lg:py-20 xl:py-24"
+      className="relative overflow-hidden bg-[linear-gradient(180deg,#fbf9f3_0%,#f5f1e6_60%,#ede7d5_100%)] px-5 py-14 sm:px-7 sm:py-16 lg:px-8 lg:py-20 xl:py-24"
     >
       {/* Décor de fond */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.42),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(200,152,48,0.12),transparent_34%)]" />
-        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(58,40,14,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
+        <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(rgba(44,43,19,0.9)_0.7px,transparent_0.7px)] bg-[length:18px_18px]" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl">
@@ -19,11 +19,11 @@ export default function About() {
           <Reveal className="order-1" y={26}>
             <div className="relative pt-5 sm:pt-7">
               <div className="absolute left-0 top-0 h-[calc(100%-4.5rem)] w-[calc(100%-2rem)] rounded-[2rem] border border-gold-500/25 sm:w-[calc(100%-2.5rem)]" />
-              <div className="group relative overflow-hidden rounded-[2rem] border border-gold-500/15 bg-cream-50/80 shadow-[0_28px_75px_rgba(58,40,14,0.11)]">
+              <div className="group relative overflow-hidden rounded-[2rem] border border-gold-500/15 bg-cream-50/80 shadow-[0_28px_75px_rgba(44,43,19,0.11)]">
                 <div className="aspect-[4/5] sm:aspect-[5/6] lg:aspect-[4/4.7]">
                   <Image
-                    src="/images/about.png"
-                    alt="Cliente dans le salon Sekoba Coiffure après une coiffure premium"
+                    src="/images/about-bene.png"
+                    alt="Cliente dans l'institut Bene Hair après une coiffure premium"
                     width={1024}
                     height={1280}
                     priority
@@ -31,26 +31,26 @@ export default function About() {
                     sizes="(min-width: 1024px) 44vw, 100vw"
                   />
                 </div>
-                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(58,40,14,0.03)_0%,rgba(58,40,14,0.16)_100%)]" />
+                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(44,43,19,0.03)_0%,rgba(44,43,19,0.16)_100%)]" />
               </div>
 
               {/* Badge "Depuis 2009" */}
               <div className="absolute bottom-4 left-4 right-4 -translate-y-2 sm:bottom-6 sm:left-6 sm:right-auto lg:bottom-7 lg:left-7">
-                <div className="flex w-full max-w-[18rem] items-center gap-3 rounded-[1.25rem] border border-gold-500/20 bg-[#120b07]/92 px-[18px] py-3 shadow-[0_14px_30px_rgba(58,40,14,0.16)] backdrop-blur-sm sm:min-w-[13rem] sm:w-auto">
-                  <div className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#090503]">
+                <div className="flex w-full max-w-[18rem] items-center gap-3 rounded-[1.25rem] border border-gold-500/20 bg-[#12110a]/92 px-[18px] py-3 shadow-[0_14px_30px_rgba(44,43,19,0.16)] backdrop-blur-sm sm:min-w-[13rem] sm:w-auto">
+                  <div className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#0a0a05]">
                     <Image
-                      src="/images/logo-sekoba.png"
-                      alt="Logo Sekoba Coiffure"
+                      src="/images/logo-bene-hair.png"
+                      alt="Logo Institut Bene Hair"
                       fill
                       sizes="48px"
                       className="scale-[0.74] object-contain"
                     />
                   </div>
                   <div>
-                    <p className="font-serif text-[1.24rem] leading-none text-[#f3eadf] sm:text-[1.36rem]">
-                      Depuis 2009
+                    <p className="font-serif text-[1.24rem] leading-none text-[#f2f1e7] sm:text-[1.36rem]">
+                      Bene Hair
                     </p>
-                    <p className="mt-2 text-[0.82rem] text-[#9d8a76] sm:text-[0.88rem]">
+                    <p className="mt-2 text-[0.82rem] text-[#98946f] sm:text-[0.88rem]">
                       Référence à Abidjan
                     </p>
                   </div>
@@ -79,7 +79,7 @@ export default function About() {
             <div className="mt-8 h-px w-24 bg-gradient-to-r from-gold-500 to-transparent" />
 
             <p className="mt-8 mb-4 max-w-[32.5rem] text-[1rem] leading-[1.8] text-brown-700 sm:text-[1.08rem]">
-              Chez Sekoba Coiffure, chaque prestation est pensée comme une expérience de
+              Chez Bene Hair, chaque prestation est pensée comme une expérience de
               mise en beauté haut de gamme, où l&apos;élégance, la maîtrise du geste et le
               respect de votre identité se rencontrent.
             </p>

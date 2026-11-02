@@ -4,14 +4,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   FaArrowUp,
-  FaEnvelope,
   FaInstagram,
   FaMapMarkerAlt,
   FaPhoneAlt,
+  FaWhatsapp,
 } from "./icons";
 
 const MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Marcory%20Zone%204%20Abidjan%20pr%C3%A8s%20h%C3%B4tel%20Ibis";
+  "https://www.google.com/maps/search/?api=1&query=Institut%20Bene%20Hair%20Abidjan";
 
 const FOCUS_RING =
   "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100";
@@ -30,7 +30,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="overflow-hidden bg-[linear-gradient(180deg,#fcf7ec_0%,#f8edd8_62%,#f4e0c0_100%)] text-brown-900">
+    <footer className="overflow-hidden bg-[linear-gradient(180deg,#fbf9f3_0%,#f5f1e6_62%,#ede7d5_100%)] text-brown-900">
       <div className="h-px w-full bg-[linear-gradient(90deg,transparent_0%,rgba(200,152,48,0.42)_50%,transparent_100%)]" />
 
       <div className="mx-auto max-w-[1180px] px-5 py-8 sm:px-7 sm:py-9 lg:px-8 lg:py-10">
@@ -44,8 +44,8 @@ export default function Footer() {
             <div className="flex items-center justify-center gap-3">
               <div className="relative h-[clamp(2.25rem,9vw,2.75rem)] w-[clamp(2.25rem,9vw,2.75rem)] shrink-0 sm:h-12 sm:w-12">
                 <Image
-                  src="/images/logo-sekoba.png"
-                  alt="Logo Sekoba Coiffure"
+                  src="/images/logo-bene-hair.png"
+                  alt="Logo Institut Bene Hair"
                   fill
                   sizes="48px"
                   className="object-contain"
@@ -53,10 +53,10 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="font-serif text-[clamp(1.5rem,7vw,1.85rem)] leading-none text-gold-600 sm:text-[2rem]">
-                  SEKOBA
+                  BENE HAIR
                 </h3>
                 <p className="mt-1 text-[0.68rem] uppercase tracking-[0.28em] text-gold-500">
-                  Coiffure
+                  Institut
                 </p>
               </div>
             </div>
@@ -86,27 +86,29 @@ export default function Footer() {
             <ul className="mx-auto mt-4 w-fit space-y-0 text-left text-[0.82rem] leading-[1.45] text-brown-700 sm:space-y-2.5 sm:text-[0.86rem]">
               <li>
                 <a
-                  href="tel:+2252722507000"
+                  href="tel:+225707837795"
                   className={`flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 ${FOCUS_RING}`}
                 >
                   <FaPhoneAlt
                     className="shrink-0 text-[0.76rem] text-gold-500"
                     aria-hidden="true"
                   />
-                  +225 27 22 50 70 00
+                  07 07 83 77 95 / 01 01 22 09 61
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contact@sekoba-coiffure.ci"
+                  href="https://www.instagram.com/benehair1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 ${FOCUS_RING}`}
                 >
-                  <FaEnvelope
+                  <FaInstagram
                     className="shrink-0 text-[0.76rem] text-gold-500"
                     aria-hidden="true"
                   />
                   <span className="min-w-0 [overflow-wrap:anywhere]">
-                    contact@sekoba-coiffure.ci
+                    @benehair1
                   </span>
                 </a>
               </li>
@@ -122,23 +124,23 @@ export default function Footer() {
                     aria-hidden="true"
                   />
                   <span className="min-w-0 [overflow-wrap:anywhere]">
-                    Marcory, Zone 4, Abidjan
+                    Abidjan, Côte d&apos;Ivoire
                   </span>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/sekoba_coiffure_abidjan/"
+                  href="https://wa.me/2250707837795"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 ${FOCUS_RING}`}
                 >
-                  <FaInstagram
+                  <FaWhatsapp
                     className="shrink-0 text-[0.76rem] text-gold-500"
                     aria-hidden="true"
                   />
                   <span className="min-w-0 [overflow-wrap:anywhere]">
-                    @sekoba_coiffure_abidjan
+                    WhatsApp : 07 07 83 77 95
                   </span>
                 </a>
               </li>
@@ -170,7 +172,7 @@ export default function Footer() {
       {/* Barre inférieure */}
       <div className="border-t border-gold-500/14">
         <div className="mx-auto flex max-w-[1440px] flex-col gap-3 px-5 py-2.5 text-[clamp(0.66rem,2.6vw,0.72rem)] text-brown-500 sm:px-7 sm:text-[0.72rem] lg:flex-row lg:items-center lg:justify-between lg:px-8">
-          <p>© {year} Sekoba Coiffure. Tous droits réservés.</p>
+          <p>© {year} Institut Bene Hair. Tous droits réservés.</p>
           <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5 sm:gap-y-2">
             <a
               className={`py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 ${FOCUS_RING}`}

@@ -8,7 +8,7 @@ import {
 } from "./icons";
 
 const GOOGLE_REVIEWS_URL =
-  "https://www.google.com/search?sa=X&sca_esv=630f4fbcc449dd86&sxsrf=APpeQntl9ek0fmeHkf9rBa1m_LqSybgOtQ:1784487013853&q=Sekoba+Coiffure+-+Gen%C3%A8ve+Avis&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxK2tDAzNzS3MAcBS0NzUwsDgw2MjK8Y5YJTs_OTEhWc8zPT0kqLUhV0FdxT8w6vKEtVcCzLLF7ESkABACOKMbhcAAAA&rldimm=9867178777779175800&tbm=lcl&hl=fr-FR&ved=2ahUKEwioksSUtN-VAxUC2wIHHZvBJm0Q9fQKegQIRRAG&biw=1280&bih=678&dpr=2#lkt=LocalPoiReviews";
+  "https://www.google.com/search?q=Institut+Bene+Hair+Abidjan+avis#lkt=LocalPoiReviews";
 
 const TESTIMONIALS = [
   {
@@ -34,7 +34,7 @@ const TESTIMONIALS = [
 const STATS = [
   { icon: FaStar, value: "5/5", label: "Note moyenne des avis" },
   { icon: FaSmile, value: "100%", label: "Clientes qui recommandent" },
-  { icon: FaGoogle, value: "Google", label: "Avis vérifiés · Maison Genève" },
+  { icon: FaGoogle, value: "Google", label: "Avis vérifiés · Institut Bene Hair" },
 ];
 
 export default function Testimonials() {
@@ -57,8 +57,8 @@ export default function Testimonials() {
             Avis de Nos Clientes
           </h2>
           <p className="mx-auto mt-6 max-w-[52rem] text-[0.92rem] leading-[1.75] text-brown-700 sm:text-[1rem] lg:text-[1.06rem]">
-            Avis vérifiés de notre maison sœur à Genève — le même savoir-faire,
-            désormais à Abidjan.
+            La satisfaction de nos clientes est notre plus belle récompense —
+            voici ce qu'elles disent de nous.
           </p>
         </Reveal>
 

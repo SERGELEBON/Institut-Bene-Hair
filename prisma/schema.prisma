@@ -1,4 +1,4 @@
-// Schéma Prisma — Sekoba Coiffure
+// Schéma Prisma — Institut Bene Hair
 // Stockage des messages de contact et des inscriptions newsletter.
 
 generator client {

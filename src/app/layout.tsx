@@ -16,35 +16,37 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Sekoba Coiffure | Salon de Coiffure à Abidjan",
+  title: "Institut Bene Hair | Salon de Coiffure & Beauté à Abidjan",
   description:
-    "Découvrez Sekoba Coiffure, le salon de référence pour vos coiffures à Abidjan. Tressage, défrisage, coloration, coupes modernes et bien plus.",
-  authors: [{ name: "Sekoba Coiffure" }],
+    "Découvrez Institut Bene Hair, l'institut de référence pour vos coiffures et votre beauté à Abidjan. Tresses, tissages, extensions, coloration, soins, onglerie et bien plus.",
+  authors: [{ name: "Institut Bene Hair" }],
   keywords: [
+    "institut bene hair",
+    "bene hair abidjan",
     "coiffure abidjan",
-    "tressage",
-    "défrisage",
-    "coloration",
+    "tresses",
+    "tissages",
+    "extensions",
+    "onglerie",
     "salon coiffure côte d'ivoire",
   ],
   icons: {
-    icon: "/images/logo-sekoba.png",
-    apple: "/images/logo-sekoba.png",
+    icon: "/images/logo-bene-hair.png",
+    apple: "/images/logo-bene-hair.png",
   },
   openGraph: {
-    title: "Sekoba Coiffure | Salon de Coiffure à Abidjan",
+    title: "Institut Bene Hair | Salon de Coiffure & Beauté à Abidjan",
     description:
-      "Le salon de référence pour vos coiffures et soins capillaires à Abidjan",
-    url: "https://www.sekoba-coiffure.ci",
-    siteName: "Sekoba Coiffure",
+      "L'institut de référence pour vos coiffures, tresses et soins de beauté à Abidjan",
+    siteName: "Institut Bene Hair",
     locale: "fr_FR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sekoba Coiffure",
+    title: "Institut Bene Hair",
     description:
-      "Découvrez le salon de coiffure de référence à Abidjan, Côte d'Ivoire",
+      "Découvrez l'institut de coiffure et de beauté de référence à Abidjan, Côte d'Ivoire",
   },
 };
 
