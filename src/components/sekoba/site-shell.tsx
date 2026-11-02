@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Hero from "./hero";
+import WigCards from "./wig-cards";
 import About from "./about";
 import Services from "./services";
 import Gallery from "./gallery";
@@ -24,6 +25,7 @@ function CurrentView() {
   let view = (
     <main>
       <Hero />
+      <WigCards />
       <About />
       <Services />
       <Gallery />
