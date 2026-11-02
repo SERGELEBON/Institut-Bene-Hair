@@ -94,13 +94,13 @@ export default function About() {
             <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
                 className="inline-flex min-h-[54px] w-full items-center justify-center rounded-full border border-gold-400/70 bg-gold-300/80 px-7 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-brown-900 shadow-[0_10px_25px_rgba(200,152,48,0.2),inset_0_1px_0_rgba(255,245,221,0.4)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-400 hover:bg-gold-300 hover:text-brown-900 hover:shadow-[0_16px_34px_rgba(168,124,34,0.24),inset_0_1px_0_rgba(255,245,221,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200 sm:w-auto"
-                href="#services"
+                href="#/services"
               >
                 Découvrir nos prestations
               </a>
               <a
                 className="inline-flex min-h-[54px] w-full items-center justify-center rounded-full border border-gold-500/20 bg-cream-50/90 px-7 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-brown-900 shadow-[0_8px_20px_rgba(58,40,14,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_14px_28px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200 sm:w-auto"
-                href="#contact"
+                href="#/contact"
               >
                 Nous contacter
               </a>

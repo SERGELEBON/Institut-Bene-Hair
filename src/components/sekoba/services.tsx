@@ -1,74 +1,9 @@
 import Image from "next/image";
 import Reveal from "./reveal";
 import { FaPhoneAlt, FaRegClock, FaWhatsapp } from "./icons";
+import { SERVICES, whatsappReservation, type Service } from "@/lib/services-data";
 
 const WHATSAPP_BASE = "https://wa.me/2250707837795";
-
-type Service = {
-  slug: string;
-  title: string;
-  duration: string;
-  description: string;
-  image: string;
-  objectPosition: string;
-};
-
-const SERVICES: Service[] = [
-  {
-    slug: "tresses-tissages-nattes",
-    title: "Tresses, Tissages & Nattes",
-    duration: "2h - 6h",
-    description:
-      "Des coiffures protectrices et posées avec précision pour un rendu net, durable et adapté à votre style.",
-    image: "/images/services/tresses-bene.png",
-    objectPosition: "center 35%",
-  },
-  {
-    slug: "extensions-cheveux",
-    title: "Extensions Cheveux",
-    duration: "2h - 4h",
-    description:
-      "De la longueur, du volume et un rendu naturel grâce à des poses soignées et adaptées à votre base.",
-    image: "/images/services/extensions-bene.png",
-    objectPosition: "center 44%",
-  },
-  {
-    slug: "coloration-mise-en-forme",
-    title: "Coloration & Mise en forme",
-    duration: "1h30 - 4h",
-    description:
-      "Des nuances, des reflets et une mise en forme pensée pour sublimer votre chevelure avec harmonie.",
-    image: "/images/services/coloration-bene.png",
-    objectPosition: "center 35%",
-  },
-  {
-    slug: "perruques-coupes-confection",
-    title: "Perruques, Coupes & Confection",
-    duration: "1h - 3h",
-    description:
-      "Pose, coupe, ajustement et confection de perruques pour un rendu net, confortable et bien structuré.",
-    image: "/images/services/perruques-bene.png",
-    objectPosition: "center 38%",
-  },
-  {
-    slug: "soins-entretien-cheveux",
-    title: "Soins & Entretien Cheveux",
-    duration: "45min - 2h",
-    description:
-      "Des soins capillaires pensés pour nourrir, entretenir et préserver la beauté de vos cheveux au quotidien.",
-    image: "/images/services/soins-bene.png",
-    objectPosition: "center 42%",
-  },
-  {
-    slug: "onglerie",
-    title: "Onglerie",
-    duration: "45min - 2h",
-    description:
-      "Des mains et des pieds soignées avec des finitions nettes, durables et élégantes pour toutes les envies.",
-    image: "/images/services/onglerie-bene.png",
-    objectPosition: "center 48%",
-  },
-];
 
 const DETAIL_BTN =
   "inline-flex min-h-[3.35rem] w-full items-center justify-center rounded-[0.9rem] border border-gold-500/20 bg-cream-50/90 px-3 py-2.5 text-center text-[0.72rem] font-semibold uppercase tracking-[0.05em] text-brown-900 shadow-[0_7px_18px_rgba(44,43,19,0.05),inset_0_1px_0_rgba(255,255,255,0.75)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-500/40 hover:bg-white hover:shadow-[0_12px_24px_rgba(44,43,19,0.08),inset_0_1px_0_rgba(255,255,255,0.88)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-200";
@@ -119,6 +54,12 @@ export default function Services() {
                       className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                       style={{ objectPosition: service.objectPosition }}
                     />
+                    {/* Toute l'image mène à la page du service */}
+                    <a
+                      href={`#/services/${service.slug}`}
+                      className="absolute inset-0 z-10"
+                      aria-label={`Découvrir la prestation ${service.title}`}
+                    />
                   </div>
                   <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(44,43,19,0)_0%,rgba(44,43,19,0.08)_100%)]" />
                 </div>
@@ -136,13 +77,15 @@ export default function Services() {
                     {service.description}
                   </p>
                   <div className="mt-7 grid grid-cols-2 gap-3 sm:gap-4">
-                    <a className={DETAIL_BTN} href="#services">
+                    <a
+                      className={DETAIL_BTN}
+                      href={`#/services/${service.slug}`}
+                      aria-label={`Voir le détail de la prestation ${service.title}`}
+                    >
                       <span className="leading-tight">Voir le détail</span>
                     </a>
                     <a
-                      href={`${WHATSAPP_BASE}?text=${encodeURIComponent(
-                        `Bonjour, je souhaite réserver une prestation ${service.title}.`
-                      )}`}
+                      href={whatsappReservation(service.title)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={RESA_BTN}

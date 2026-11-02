@@ -49,13 +49,13 @@ export default function Hero() {
           <div className="flex flex-col items-center justify-center gap-5 pt-1">
             <div className="flex w-full max-w-4xl flex-col items-center justify-center gap-3 sm:flex-row sm:gap-5">
               <a
-                href="#contact"
+                href="#/contact"
                 className="inline-flex min-h-[54px] w-full items-center justify-center rounded-full border border-gold-400/70 bg-gold-300/80 px-7 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-brown-900 shadow-[0_10px_25px_rgba(200,152,48,0.2),inset_0_1px_0_rgba(255,245,221,0.4)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-gold-400 hover:bg-gold-300 hover:text-brown-900 hover:shadow-[0_16px_34px_rgba(168,124,34,0.24),inset_0_1px_0_rgba(255,245,221,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:w-auto sm:min-w-[13.25rem]"
               >
                 Réserver Maintenant
               </a>
               <a
-                href="#services"
+                href="#/services"
                 className="inline-flex min-h-[48px] w-full items-center justify-center rounded-full border border-white/90 bg-white px-4 py-3 text-[0.8rem] font-semibold uppercase tracking-[0.1em] text-brown-900 shadow-[0_18px_34px_rgba(58,40,14,0.12),inset_0_1px_0_rgba(255,255,255,0.92)] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-white hover:bg-white hover:shadow-[0_18px_34px_rgba(58,40,14,0.12),inset_0_1px_0_rgba(255,255,255,0.92)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 sm:w-auto sm:min-w-[13.25rem] sm:text-[0.86rem]"
               >
                 Nos Prestations

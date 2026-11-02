@@ -64,7 +64,7 @@ export default function Footer() {
               L&apos;excellence de la coiffure africaine à Abidjan.
             </p>
             <a
-              href="/#services"
+              href="#/services"
               className={`mt-2.5 inline-flex items-center gap-2 py-3 text-[0.76rem] font-semibold uppercase tracking-[0.14em] text-gold-600 transition-colors duration-200 hover:text-gold-700 sm:py-0 ${FOCUS_RING}`}
             >
               Nos prestations <span aria-hidden="true">→</span>
@@ -176,19 +176,19 @@ export default function Footer() {
           <div className="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5 sm:gap-y-2">
             <a
               className={`py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 ${FOCUS_RING}`}
-              href="#contact"
+              href="#/contact"
             >
               Mentions légales
             </a>
             <a
               className={`py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 ${FOCUS_RING}`}
-              href="#contact"
+              href="#/contact"
             >
               Politique de confidentialité
             </a>
             <a
               className={`py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 ${FOCUS_RING}`}
-              href="#contact"
+              href="#/contact"
             >
               CGV
             </a>

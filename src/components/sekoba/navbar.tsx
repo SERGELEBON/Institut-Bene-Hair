@@ -4,27 +4,41 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { FaBars, FaTimes } from "./icons";
+import { useSiteRouter } from "@/lib/router";
 
 const WHATSAPP_URL = "https://wa.me/2250707837795";
 
 const LINKS = [
-  { href: "/#apropos", label: "À propos" },
-  { href: "/#services", label: "Services" },
-  { href: "/#galerie", label: "Galerie" },
-  { href: "/#contact", label: "Contact" },
+  { href: "#/apropos", label: "À propos" },
+  { href: "#/services", label: "Services" },
+  { href: "#/galerie", label: "Galerie" },
+  { href: "#/contact", label: "Contact" },
 ];
 
 const NAV_LINK_CLASS =
   "group relative inline-flex items-center justify-center py-2 font-sans text-[0.9rem] font-medium tracking-[0.08em] text-gold-200 transition-all duration-200 hover:text-gold-200";
 
-const UNDERLINE_SPAN = (
-  <span className="pointer-events-none absolute -bottom-[0.18rem] left-1/2 h-px w-0 -translate-x-1/2 bg-gradient-to-r from-transparent via-gold-200/80 to-transparent opacity-0 transition-all duration-200 group-hover:w-[112%] group-hover:opacity-100" />
-);
+const UNDERLINE_SPAN_BASE =
+  "pointer-events-none absolute -bottom-[0.18rem] left-1/2 h-px -translate-x-1/2 bg-gradient-to-r from-transparent via-gold-200/80 to-transparent opacity-0 transition-all duration-200 group-hover:w-[112%] group-hover:opacity-100 ";
+
+function UnderlineSpan({ active }: { active?: boolean }) {
+  return (
+    <span
+      className={UNDERLINE_SPAN_BASE + (active ? "w-[112%] opacity-100" : "w-0")}
+    />
+  );
+}
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const { path } = useSiteRouter();
   const leftLinks = LINKS.slice(0, 2);
   const rightLinks = LINKS.slice(2);
+
+  const isCurrent = (href: string) => `#${path}` === href;
+
+  const linkStateClass = (href: string) =>
+    isCurrent(href) ? "text-gold-200" : undefined;
 
   return (
     <nav className="fixed top-0 w-full z-50 transition-smooth md:absolute bg-[linear-gradient(180deg,rgba(25,24,12,0.68)_0%,rgba(25,24,12,0.38)_58%,rgba(25,24,12,0)_100%)] md:bg-[linear-gradient(180deg,rgba(25,24,12,0.42)_0%,rgba(25,24,12,0.18)_58%,rgba(25,24,12,0)_100%)]">
@@ -34,9 +48,14 @@ export default function Navbar() {
           <div className="hidden flex-1 items-center justify-center md:flex">
             <div className="flex items-center gap-8 lg:gap-10">
               {leftLinks.map((link) => (
-                <a key={link.href} href={link.href} className={NAV_LINK_CLASS}>
+                <a
+                  key={link.href}
+                  href={link.href}
+                  aria-current={isCurrent(link.href) ? "page" : undefined}
+                  className={`${NAV_LINK_CLASS} ${linkStateClass(link.href) ?? ""}`}
+                >
                   <span>{link.label}</span>
-                  {UNDERLINE_SPAN}
+                  <UnderlineSpan active={isCurrent(link.href)} />
                 </a>
               ))}
             </div>
@@ -46,7 +65,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="/"
+                href="#/"
                 className="flex items-center justify-center px-1 py-1 transition-smooth drop-shadow-[0_10px_24px_rgba(0,0,0,0.22)]"
               >
                 <div className="relative h-[3.55rem] w-[3.55rem] lg:h-[3.9rem] lg:w-[3.9rem]">
@@ -63,9 +82,14 @@ export default function Navbar() {
             </motion.div>
             <div className="flex items-center gap-8 lg:gap-10">
               {rightLinks.map((link) => (
-                <a key={link.href} href={link.href} className={NAV_LINK_CLASS}>
+                <a
+                  key={link.href}
+                  href={link.href}
+                  aria-current={isCurrent(link.href) ? "page" : undefined}
+                  className={`${NAV_LINK_CLASS} ${linkStateClass(link.href) ?? ""}`}
+                >
                   <span>{link.label}</span>
-                  {UNDERLINE_SPAN}
+                  <UnderlineSpan active={isCurrent(link.href)} />
                 </a>
               ))}
             </div>
@@ -101,7 +125,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="/"
+              href="#/"
               className="flex items-center justify-center px-1 py-1 transition-smooth drop-shadow-[0_10px_24px_rgba(0,0,0,0.22)]"
             >
               <div className="relative h-[3rem] w-[3rem]">
