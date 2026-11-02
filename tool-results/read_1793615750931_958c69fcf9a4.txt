@@ -1,0 +1,387 @@
+   636→</span>
+   637→<span class="whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.42em] sm:text-[11px]">Newsletter</span>
+   638→<span class="h-px flex-1 bg-gradient-to-l from-transparent to-gold-500">
+   639→</span>
+   640→</div>
+   641→<h2 class="mt-7 font-serif text-[2.15rem] leading-[0.95] text-brown-900 sm:text-[3rem] lg:text-[4rem]">Restez <span class="text-gold-500">Connectée</span>
+   642→</h2>
+   643→<div class="mx-auto mt-5 h-[3px] w-24 rounded-full bg-[linear-gradient(90deg,transparent_0%,#d6ad54_50%,transparent_100%)]">
+   644→</div>
+   645→<p class="mx-auto mt-7 max-w-[56rem] text-[0.94rem] leading-[1.75] text-brown-700 sm:text-[1rem] lg:text-[1.08rem]">Inscrivez-vous à notre newsletter et recevez nos conseils beauté, offres exclusives et dernières tendances.</p>
+   646→</div>
+   647→<div class="relative z-10 mt-12 grid gap-5 md:grid-cols-3">
+   648→<div class="rounded-[1.45rem] border border-gold-500/18 bg-cream-50/92 px-5 py-7 text-center shadow-[0_14px_30px_rgba(58,40,14,0.08)]" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   649→<div class="mx-auto mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold-500/20 bg-gold-500/8 text-gold-500">
+   650→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[1.3rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   651→<path d="M32 448c0 17.7 14.3 32 32 32h160V320H32v128zm256 32h160c17.7 0 32-14.3 32-32V320H288v160zm192-320h-42.1c6.2-12.1 10.1-25.5 10.1-40 0-48.5-39.5-88-88-88-41.6 0-68.5 21.3-103 68.3-34.5-47-61.4-68.3-103-68.3-48.5 0-88 39.5-88 88 0 14.5 3.8 27.9 10.1 40H32c-17.7 0-32 14.3-32 32v80c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16v-80c0-17.7-14.3-32-32-32zm-326.1 0c-22.1 0-40-17.9-40-40s17.9-40 40-40c19.9 0 34.6 3.3 86.1 80h-86.1zm206.1 0h-86.1c51.4-76.5 65.7-80 86.1-80 22.1 0 40 17.9 40 40s-17.9 40-40 40z">
+   652→</path>
+   653→</svg>
+   654→</div>
+   655→<h3 class="font-serif text-[1.45rem] text-brown-900">Offres Exclusives</h3>
+   656→<p class="mx-auto mt-4 max-w-[16rem] text-[0.9rem] leading-[1.6] text-brown-700">Recevez des réductions et promotions réservées aux abonnées</p>
+   657→</div>
+   658→<div class="rounded-[1.45rem] border border-gold-500/18 bg-cream-50/92 px-5 py-7 text-center shadow-[0_14px_30px_rgba(58,40,14,0.08)]" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   659→<div class="mx-auto mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold-500/20 bg-gold-500/8 text-gold-500">
+   660→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[1.3rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   661→<path d="M224 96l16-32 32-16-32-16-16-32-16 32-32 16 32 16 16 32zM80 160l26.66-53.33L160 80l-53.34-26.67L80 0 53.34 53.33 0 80l53.34 26.67L80 160zm352 128l-26.66 53.33L352 368l53.34 26.67L432 448l26.66-53.33L512 368l-53.34-26.67L432 288zm70.62-193.77L417.77 9.38C411.53 3.12 403.34 0 395.15 0c-8.19 0-16.38 3.12-22.63 9.38L9.38 372.52c-12.5 12.5-12.5 32.76 0 45.25l84.85 84.85c6.25 6.25 14.44 9.37 22.62 9.37 8.19 0 16.38-3.12 22.63-9.37l363.14-363.15c12.5-12.48 12.5-32.75 0-45.24zM359.45 203.46l-50.91-50.91 86.6-86.6 50.91 50.91-86.6 86.6z">
+   662→</path>
+   663→</svg>
+   664→</div>
+   665→<h3 class="font-serif text-[1.45rem] text-brown-900">Tendances Beauté</h3>
+   666→<p class="mx-auto mt-4 max-w-[16rem] text-[0.9rem] leading-[1.6] text-brown-700">Découvrez les dernières tendances en coiffure africaine</p>
+   667→</div>
+   668→<div class="rounded-[1.45rem] border border-gold-500/18 bg-cream-50/92 px-5 py-7 text-center shadow-[0_14px_30px_rgba(58,40,14,0.08)]" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   669→<div class="mx-auto mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold-500/20 bg-gold-500/8 text-gold-500">
+   670→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-[1.3rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   671→<path d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z">
+   672→</path>
+   673→</svg>
+   674→</div>
+   675→<h3 class="font-serif text-[1.45rem] text-brown-900">Nouveautés</h3>
+   676→<p class="mx-auto mt-4 max-w-[16rem] text-[0.9rem] leading-[1.6] text-brown-700">Soyez informée en avant-première de nos nouveaux services</p>
+   677→</div>
+   678→</div>
+   679→<div class="relative z-10 mx-auto mt-14 max-w-[60rem] rounded-[1.75rem] border border-gold-500/18 bg-cream-50/92 px-5 py-7 shadow-[0_16px_38px_rgba(58,40,14,0.08)] sm:px-7 sm:py-8 lg:px-8 lg:py-9" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   680→<span class="pointer-events-none absolute left-5 top-5 hidden h-10 w-10 rounded-tl-[0.9rem] border-l-[3px] border-t-[3px] border-gold-500/45 sm:block">
+   681→</span>
+   682→<span class="pointer-events-none absolute right-5 top-5 hidden h-10 w-10 rounded-tr-[0.9rem] border-r-[3px] border-t-[3px] border-gold-500/45 sm:block">
+   683→</span>
+   684→<span class="pointer-events-none absolute bottom-5 left-5 hidden h-10 w-10 rounded-bl-[0.9rem] border-b-[3px] border-l-[3px] border-gold-500/45 sm:block">
+   685→</span>
+   686→<span class="pointer-events-none absolute bottom-5 right-5 hidden h-10 w-10 rounded-br-[0.9rem] border-b-[3px] border-r-[3px] border-gold-500/45 sm:block">
+   687→</span>
+   688→<div class="mx-auto max-w-[42rem] text-center">
+   689→<h3 class="font-serif text-[1.75rem] text-brown-900 sm:text-[2.1rem]">Rejoignez notre communauté</h3>
+   690→<p class="mt-3 text-[0.92rem] text-brown-700 sm:text-[1rem]">Conseils beauté et offres pensés pour nos abonnées à Abidjan.</p>
+   691→</div>
+   692→<form class="mx-auto mt-7 flex max-w-[50rem] flex-col gap-3 md:flex-row">
+   693→<div class="relative flex-1">
+   694→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-[1.05rem] text-brown-600" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   695→<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+   696→</path>
+   697→</svg>
+   698→<input type="email" placeholder="Votre adresse email" required="" class="w-full rounded-[1.05rem] border border-gold-500/20 bg-white/88 px-14 py-4 text-[0.96rem] text-brown-900 placeholder:text-brown-500 focus:outline-none focus:ring-2 focus:ring-gold-500 disabled:opacity-75" value=""/>
+   699→</div>
+   700→<button type="submit" class="inline-flex min-h-[3.7rem] items-center justify-center rounded-[1.05rem] border border-gold-400/70 bg-gold-300/80 px-7 py-3 text-[0.96rem] font-semibold text-brown-900 transition-colors duration-200 hover:border-gold-400 hover:bg-gold-300 disabled:opacity-75 md:min-w-[11rem]">S&#x27;inscrire</button>
+   701→</form>
+   702→<p class="mx-auto mt-5 max-w-[42rem] text-center text-[0.86rem] leading-[1.6] text-brown-600">Vous pouvez vous désinscrire de la newsletter à tout moment.</p>
+   703→</div>
+   704→<div class="relative z-10 mt-8 flex flex-col items-center justify-center gap-4 text-center md:flex-row md:gap-8 lg:gap-10" style="opacity:0;transform:translateY(18px) translateZ(0)">
+   705→<div class="flex items-center gap-3 text-brown-700">
+   706→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-gold-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   707→<path d="M224 96l16-32 32-16-32-16-16-32-16 32-32 16 32 16 16 32zM80 160l26.66-53.33L160 80l-53.34-26.67L80 0 53.34 53.33 0 80l53.34 26.67L80 160zm352 128l-26.66 53.33L352 368l53.34 26.67L432 448l26.66-53.33L512 368l-53.34-26.67L432 288zm70.62-193.77L417.77 9.38C411.53 3.12 403.34 0 395.15 0c-8.19 0-16.38 3.12-22.63 9.38L9.38 372.52c-12.5 12.5-12.5 32.76 0 45.25l84.85 84.85c6.25 6.25 14.44 9.37 22.62 9.37 8.19 0 16.38-3.12 22.63-9.37l363.14-363.15c12.5-12.48 12.5-32.75 0-45.24zM359.45 203.46l-50.91-50.91 86.6-86.6 50.91 50.91-86.6 86.6z">
+   708→</path>
+   709→</svg>
+   710→<span class="text-[0.94rem] sm:text-[1rem]">Contenu exclusif chaque semaine</span>
+   711→</div>
+   712→</div>
+   713→</div>
+   714→</div>
+   715→</section>
+   716→<section id="contact" class="overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.42),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(200,152,48,0.12),transparent_34%),linear-gradient(180deg,#fcf7ec_0%,#f8edd8_60%,#f4e0c0_100%)] px-4 py-10 sm:px-6 sm:py-12 md:px-7 md:py-14 lg:px-8 lg:py-[4.5rem] xl:py-20">
+   717→<div class="mx-auto max-w-[1440px]">
+   718→<div class="mx-auto max-w-[64rem] px-4 text-center sm:px-8" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   719→<div class="mx-auto flex max-w-[28rem] items-center justify-center gap-5 text-gold-500">
+   720→<span class="h-px flex-1 bg-gradient-to-r from-transparent to-gold-500">
+   721→</span>
+   722→<span class="whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.42em] sm:text-[11px]">Contactez-nous</span>
+   723→<span class="h-px flex-1 bg-gradient-to-l from-transparent to-gold-500">
+   724→</span>
+   725→</div>
+   726→<h2 class="mt-4 text-balance font-serif text-[clamp(1.9rem,4vw+1.3rem,3rem)] leading-[0.95] text-brown-900 lg:mt-6 lg:text-[4.35rem]">Prenez <span class="text-gold-500">Rendez-vous</span>
+   727→</h2>
+   728→<div class="mx-auto mt-3 h-[3px] w-24 rounded-full bg-[linear-gradient(90deg,transparent_0%,#d6ad54_50%,transparent_100%)] lg:mt-4">
+   729→</div>
+   730→<p class="mx-auto mt-4 max-w-[54rem] text-balance text-[0.95rem] leading-[1.75] text-brown-700 sm:text-[1rem] lg:mt-5 lg:text-[1.08rem]">Une question ou une demande ? Écrivez-nous, on vous répond.</p>
+   731→</div>
+   732→<div class="mx-auto mt-7 grid grid-cols-1 max-w-[82rem] items-stretch gap-5 sm:mt-8 sm:gap-6 lg:mt-9 lg:gap-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1fr)] xl:gap-7">
+   733→<div class="flex flex-col gap-3.5 sm:gap-4 lg:gap-5">
+   734→<div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:gap-3.5 lg:gap-3.5">
+   735→<a href="https://www.google.com/maps/search/?api=1&amp;query=Marcory%20Zone%204%20Abidjan%20pr%C3%A8s%20h%C3%B4tel%20Ibis" target="_blank" rel="noopener noreferrer" aria-label="Voir l&#x27;itinéraire vers Marcory, quartier Zone 4, Abidjan sur Google Maps" class="group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(58,40,14,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 hover:border-gold-500/32 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500" style="opacity:0;transform:translateY(20px) translateZ(0)">
+   736→<div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-[0.7rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_8px_18px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]">
+   737→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="text-[0.8rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   738→<path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+   739→</path>
+   740→</svg>
+   741→</div>
+   742→<div class="mt-2 min-w-0">
+   743→<p class="text-[0.66rem] font-semibold uppercase tracking-[0.14em] text-gold-700">Adresse</p>
+   744→<div class="mt-0.5">
+   745→<p class="break-words text-[0.98rem] font-semibold leading-snug text-brown-900">Marcory, Zone 4</p>
+   746→<p class="break-words text-[0.74rem] leading-snug tracking-tight text-brown-500">À proximité de l&#x27;hôtel Ibis et de l&#x27;hôtel Getellemane</p>
+   747→</div>
+   748→</div>
+   749→</a>
+   750→<a href="tel:+2252722507000" aria-label="Appeler le +225 27 22 50 70 00" class="group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(58,40,14,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 hover:border-gold-500/32 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500" style="opacity:0;transform:translateY(20px) translateZ(0)">
+   751→<div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-[0.7rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_8px_18px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]">
+   752→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.8rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   753→<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+   754→</path>
+   755→</svg>
+   756→</div>
+   757→<div class="mt-2 min-w-0">
+   758→<p class="text-[0.66rem] font-semibold uppercase tracking-[0.14em] text-gold-700">Téléphone</p>
+   759→<div class="mt-0.5">
+   760→<p class="break-words text-[0.98rem] font-semibold leading-snug text-brown-900">+225 27 22 50 70 00</p>
+   761→<p class="text-[0.78rem] leading-snug text-brown-500">Du lundi au samedi</p>
+   762→</div>
+   763→</div>
+   764→</a>
+   765→<a href="mailto:contact@sekoba-coiffure.ci" aria-label="Envoyer un email à contact@sekoba-coiffure.ci" class="group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(58,40,14,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 hover:border-gold-500/32 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500" style="opacity:0;transform:translateY(20px) translateZ(0)">
+   766→<div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-[0.7rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_8px_18px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]">
+   767→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.8rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   768→<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+   769→</path>
+   770→</svg>
+   771→</div>
+   772→<div class="mt-2 min-w-0">
+   773→<p class="text-[0.66rem] font-semibold uppercase tracking-[0.14em] text-gold-700">Email</p>
+   774→<div class="mt-0.5">
+   775→<p class="[overflow-wrap:anywhere] [word-break:break-word] text-[0.98rem] font-semibold leading-snug text-brown-900">contact@sekoba-coiffure.ci</p>
+   776→<p class="text-[0.78rem] leading-snug text-brown-500">Réponse sous 24h</p>
+   777→</div>
+   778→</div>
+   779→</a>
+   780→<div class="group rounded-[1.4rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-3 shadow-[0_10px_24px_rgba(58,40,14,0.07),inset_0_1px_0_rgba(255,255,255,0.85)] transition-colors duration-200 sm:p-3.5 " style="opacity:0;transform:translateY(20px) translateZ(0)">
+   781→<div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-[0.7rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_8px_18px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]">
+   782→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.8rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   783→<path d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z">
+   784→</path>
+   785→</svg>
+   786→</div>
+   787→<div class="mt-2 min-w-0">
+   788→<p class="text-[0.66rem] font-semibold uppercase tracking-[0.14em] text-gold-700">Horaires</p>
+   789→<div class="mt-0.5">
+   790→<dl class="space-y-0.5">
+   791→<div class="flex items-baseline justify-between gap-2 leading-tight">
+   792→<dt class="text-[0.72rem] text-brown-600">Lun–Jeu</dt>
+   793→<dd class="shrink-0 text-[0.78rem] font-semibold tabular-nums text-brown-900">09:00 - 18:00</dd>
+   794→</div>
+   795→<div class="flex items-baseline justify-between gap-2 leading-tight">
+   796→<dt class="text-[0.72rem] text-brown-600">Ven</dt>
+   797→<dd class="shrink-0 text-[0.78rem] font-semibold tabular-nums text-brown-900">09:00 - 19:00</dd>
+   798→</div>
+   799→<div class="flex items-baseline justify-between gap-2 leading-tight">
+   800→<dt class="text-[0.72rem] text-brown-600">Sam</dt>
+   801→<dd class="shrink-0 text-[0.78rem] font-semibold tabular-nums text-brown-900">08:00 - 19:00</dd>
+   802→</div>
+   803→<div class="flex items-baseline justify-between gap-2 leading-tight">
+   804→<dt class="text-[0.72rem] text-brown-600">Dim</dt>
+   805→<dd class="shrink-0 text-[0.78rem] font-semibold tabular-nums text-brown-400">Fermé</dd>
+   806→</div>
+   807→</dl>
+   808→</div>
+   809→</div>
+   810→</div>
+   811→</div>
+   812→<div class="flex min-h-[240px] flex-1 flex-col overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] shadow-[0_18px_40px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:min-h-[260px] md:min-h-[280px] lg:min-h-[320px]" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   813→<span class="pointer-events-none block h-px shrink-0 bg-[linear-gradient(90deg,transparent,rgba(232,176,64,0.6),transparent)]">
+   814→</span>
+   815→<div class="flex shrink-0 items-center justify-between gap-2 px-4 py-2.5 sm:gap-3 lg:px-5 lg:py-3.5">
+   816→<div class="flex min-w-0 items-start gap-2 sm:items-center sm:gap-2.5">
+   817→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mt-0.5 shrink-0 text-[0.85rem] text-gold-600 sm:mt-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   818→<path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+   819→</path>
+   820→</svg>
+   821→<p class="text-[0.85rem] font-semibold leading-snug text-brown-900 lg:truncate">Marcory, Zone 4, Abidjan</p>
+   822→</div>
+   823→<a href="https://www.google.com/maps/search/?api=1&amp;query=Marcory%20Zone%204%20Abidjan%20pr%C3%A8s%20h%C3%B4tel%20Ibis" target="_blank" rel="noopener noreferrer" aria-label="Voir l&#x27;itinéraire vers Marcory, quartier Zone 4, Abidjan sur Google Maps" class="inline-flex min-h-[2.75rem] shrink-0 items-center gap-2 rounded-full border border-gold-400/70 bg-gold-300/80 px-3.5 py-1.5 text-[0.78rem] font-semibold text-brown-900 transition-colors duration-200 hover:border-gold-400 hover:bg-gold-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 lg:min-h-0">
+   824→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.68rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   825→<path d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z">
+   826→</path>
+   827→</svg>
+   828→<span>Itinéraire</span>
+   829→</a>
+   830→</div>
+   831→<div class="relative min-h-0 flex-1 border-t border-gold-500/12">
+   832→<iframe width="100%" height="100%" style="border:0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?ll=5.2912282,-3.9735415&amp;z=17&amp;output=embed" allowFullScreen="" title="Carte de localisation de Sekoba Coiffure — Marcory, Zone 4, Abidjan">
+   833→</iframe>
+   834→</div>
+   835→</div>
+   836→<a href="https://wa.me/2250707716957" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[3.6rem] w-full shrink-0 items-center justify-center gap-2.5 rounded-full border border-brown-900/10 bg-brown-900 px-6 py-3.5 text-[0.95rem] font-semibold text-cream-50 shadow-[0_12px_26px_rgba(58,40,14,0.22)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brown-800 hover:shadow-[0_16px_32px_rgba(58,40,14,0.28)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100 active:translate-y-0" style="opacity:0;transform:translateY(20px) translateZ(0)">
+   837→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-[1.1rem] text-[#c7f0d0]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   838→<path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+   839→</path>
+   840→</svg>Réserver sur WhatsApp</a>
+   841→</div>
+   842→<form class="relative isolate self-start overflow-hidden rounded-[1.75rem] border border-gold-500/18 bg-[linear-gradient(160deg,rgba(255,255,255,0.94),rgba(252,247,236,0.82))] p-5 shadow-[0_20px_46px_rgba(58,40,14,0.08),inset_0_1px_0_rgba(255,255,255,0.85)] sm:p-6 lg:p-7" style="opacity:0;transform:translateY(24px) translateZ(0)">
+   843→<span class="pointer-events-none absolute inset-x-0 top-0 h-px bg-[linear-gradient(90deg,transparent,rgba(232,176,64,0.6),transparent)]">
+   844→</span>
+   845→<div class="flex items-center gap-3.5">
+   846→<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-[0.85rem] border border-gold-500/20 bg-[linear-gradient(145deg,rgba(254,250,238,0.96),rgba(242,204,108,0.18))] text-gold-600 shadow-[0_10px_22px_rgba(200,152,48,0.12),inset_0_1px_0_rgba(255,255,255,0.82)]">
+   847→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.95rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   848→<path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z">
+   849→</path>
+   850→</svg>
+   851→</div>
+   852→<div>
+   853→<p class="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-gold-700">Formulaire de contact</p>
+   854→<h3 class="mt-0.5 font-serif text-[1.7rem] leading-tight text-brown-900 sm:text-[2rem]">Envoyez-nous un message</h3>
+   855→</div>
+   856→</div>
+   857→<p class="mt-3 max-w-[34rem] text-[0.96rem] leading-[1.7] text-brown-700">Remplissez le formulaire, nous vous répondons rapidement.</p>
+   858→<div class="mt-6 grid gap-3.5 md:grid-cols-2">
+   859→<div>
+   860→<label for="contact-name" class="mb-2 block text-[0.9rem] font-medium text-brown-800">Nom complet <span class="text-gold-500">*</span>
+   861→</label>
+   862→<div class="group relative">
+   863→<span class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gold-500/70 transition-colors duration-200 group-focus-within:text-gold-600">
+   864→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-[0.9rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   865→<path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
+   866→</path>
+   867→</svg>
+   868→</span>
+   869→<input id="contact-name" type="text" required="" placeholder="Votre nom" class="min-h-[3.6rem] w-full rounded-[1rem] border border-gold-500/20 bg-white/85 pl-11 pr-4 text-base text-brown-900 placeholder:text-brown-400 transition-all duration-200 hover:border-gold-500/35 focus:border-gold-500/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold-500/35 lg:text-[0.98rem]" name="name" value=""/>
+   870→</div>
+   871→</div>
+   872→<div>
+   873→<label for="contact-email" class="mb-2 block text-[0.9rem] font-medium text-brown-800">Email <span class="text-gold-500">*</span>
+   874→</label>
+   875→<div class="group relative">
+   876→<span class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gold-500/70 transition-colors duration-200 group-focus-within:text-gold-600">
+   877→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.9rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   878→<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+   879→</path>
+   880→</svg>
+   881→</span>
+   882→<input id="contact-email" type="email" required="" placeholder="votre@email.com" class="min-h-[3.6rem] w-full rounded-[1rem] border border-gold-500/20 bg-white/85 pl-11 pr-4 text-base text-brown-900 placeholder:text-brown-400 transition-all duration-200 hover:border-gold-500/35 focus:border-gold-500/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold-500/35 lg:text-[0.98rem]" name="email" value=""/>
+   883→</div>
+   884→</div>
+   885→<div class="md:col-span-2">
+   886→<label for="contact-phone" class="mb-2 block text-[0.9rem] font-medium text-brown-800">Téléphone <span class="text-gold-500">*</span>
+   887→</label>
+   888→<div class="group relative">
+   889→<span class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gold-500/70 transition-colors duration-200 group-focus-within:text-gold-600">
+   890→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.9rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   891→<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+   892→</path>
+   893→</svg>
+   894→</span>
+   895→<input id="contact-phone" type="tel" required="" placeholder="+225 00 00 00 00 00" class="min-h-[3.6rem] w-full rounded-[1rem] border border-gold-500/20 bg-white/85 pl-11 pr-4 text-base text-brown-900 placeholder:text-brown-400 transition-all duration-200 hover:border-gold-500/35 focus:border-gold-500/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold-500/35 lg:text-[0.98rem]" name="phone" value=""/>
+   896→</div>
+   897→</div>
+   898→</div>
+   899→<div class="mt-4">
+   900→<label for="contact-message" class="mb-2 block text-[0.9rem] font-medium text-brown-800">Votre message <span class="text-gold-500">*</span>
+   901→</label>
+   902→<div class="group relative">
+   903→<span class="pointer-events-none absolute left-4 top-[1.15rem] text-gold-500/70 transition-colors duration-200 group-focus-within:text-gold-600">
+   904→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[0.9rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   905→<path d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32zM128 272c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
+   906→</path>
+   907→</svg>
+   908→</span>
+   909→<textarea id="contact-message" name="message" rows="3" required="" placeholder="Décrivez votre demande ou posez-nous vos questions..." class="min-h-[160px] w-full resize-none rounded-[1rem] border border-gold-500/20 bg-white/85 py-3.5 pl-11 pr-4 text-base text-brown-900 placeholder:text-brown-400 transition-all duration-200 hover:border-gold-500/35 focus:border-gold-500/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold-500/35 lg:min-h-[165px] lg:text-[0.98rem] xl:min-h-[185px] min-[1440px]:min-h-[193px]">
+   910→</textarea>
+   911→</div>
+   912→</div>
+   913→<button type="submit" class="mt-5 inline-flex min-h-[4.35rem] w-full items-center justify-center gap-3 rounded-[1.2rem] border border-gold-400/70 bg-[linear-gradient(145deg,#f7d789,#eec063)] px-7 py-4 text-[1rem] font-semibold text-brown-900 shadow-[0_14px_30px_rgba(92,60,16,0.20),inset_0_1px_0_rgba(255,248,231,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:border-gold-400 hover:shadow-[0_18px_36px_rgba(92,60,16,0.26),inset_0_1px_0_rgba(255,248,231,0.7)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brown-900 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-50 active:translate-y-0 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0">
+   914→<span>Envoyer le message</span>
+   915→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-[1rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   916→<path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z">
+   917→</path>
+   918→</svg>
+   919→</button>
+   920→<p class="mt-3 text-sm leading-6 text-brown-600">En soumettant ce formulaire, vous acceptez notre<!-- -->
+   921→<a href="/privacy" class="text-gold-600 underline decoration-transparent transition-colors duration-200 hover:decoration-current">politique de confidentialité</a>.</p>
+   922→</form>
+   923→</div>
+   924→</div>
+   925→</section>
+   926→</main>
+   927→<footer class="overflow-hidden bg-[linear-gradient(180deg,#fcf7ec_0%,#f8edd8_62%,#f4e0c0_100%)] text-brown-900">
+   928→<div class="h-px w-full bg-[linear-gradient(90deg,transparent_0%,rgba(200,152,48,0.42)_50%,transparent_100%)]">
+   929→</div>
+   930→<div class="mx-auto max-w-[1180px] px-5 py-8 sm:px-7 sm:py-9 lg:px-8 lg:py-10">
+   931→<div class="grid gap-7 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-6 lg:grid-cols-3 lg:gap-x-8">
+   932→<div class="min-w-0 text-center lg:border-r lg:border-gold-500/12 lg:px-8" style="opacity:0;transform:translateY(14px) translateZ(0)">
+   933→<div class="flex items-center justify-center gap-3">
+   934→<div class="relative h-[clamp(2.25rem,9vw,2.75rem)] w-[clamp(2.25rem,9vw,2.75rem)] shrink-0 sm:h-12 sm:w-12">
+   935→<img alt="Logo Sekoba Coiffure" loading="lazy" decoding="async" data-nimg="fill" class="object-contain" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="48px" srcSet="/_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=16&amp;q=75 16w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fimages%2FLogo-Sekoba-Coiffure-Abidjan.png&amp;w=3840&amp;q=75"/>
+   936→</div>
+   937→<div>
+   938→<h3 class="font-serif text-[clamp(1.5rem,7vw,1.85rem)] leading-none text-gold-600 sm:text-[2rem]">SEKOBA</h3>
+   939→<p class="mt-1 text-[0.68rem] uppercase tracking-[0.28em] text-gold-500">Coiffure</p>
+   940→</div>
+   941→</div>
+   942→<p class="mx-auto mt-3 max-w-[15rem] text-[0.84rem] leading-[1.65] text-brown-700 sm:mt-4">L&#x27;excellence de la coiffure africaine à Abidjan.</p>
+   943→<a class="mt-2.5 inline-flex items-center gap-2 py-3 text-[0.76rem] font-semibold uppercase tracking-[0.14em] text-gold-600 transition-colors duration-200 hover:text-gold-700 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100" href="/services#services">Nos prestations <span aria-hidden="true">→</span>
+   944→</a>
+   945→</div>
+   946→<div class="min-w-0 border-t border-gold-500/14 pt-5 sm:border-t-0 sm:pt-0 lg:border-r lg:border-gold-500/12 lg:px-8" style="opacity:0;transform:translateY(14px) translateZ(0)">
+   947→<div class="flex items-center justify-center gap-4 text-gold-500">
+   948→<div class="h-[2px] w-12 rounded-full bg-gold-500">
+   949→</div>
+   950→<h4 class="text-[11px] font-semibold uppercase tracking-[0.28em] sm:text-xs">Contact</h4>
+   951→</div>
+   952→<ul class="mx-auto mt-4 w-fit space-y-0 text-left text-[0.82rem] leading-[1.45] text-brown-700 sm:space-y-2.5 sm:text-[0.86rem]">
+   953→<li>
+   954→<a href="tel:+2252722507000" class="flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100">
+   955→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="shrink-0 text-[0.76rem] text-gold-500" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   956→<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+   957→</path>
+   958→</svg>+225 27 22 50 70 00</a>
+   959→</li>
+   960→<li>
+   961→<a href="mailto:contact@sekoba-coiffure.ci" class="flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100">
+   962→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="shrink-0 text-[0.76rem] text-gold-500" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   963→<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+   964→</path>
+   965→</svg>
+   966→<span class="min-w-0 [overflow-wrap:anywhere]">contact@sekoba-coiffure.ci</span>
+   967→</a>
+   968→</li>
+   969→<li>
+   970→<a href="https://www.google.com/maps/search/?api=1&amp;query=Marcory%20Zone%204%20Abidjan%20pr%C3%A8s%20h%C3%B4tel%20Ibis" target="_blank" rel="noopener noreferrer" class="flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100">
+   971→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="shrink-0 text-[0.76rem] text-gold-500" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   972→<path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+   973→</path>
+   974→</svg>
+   975→<span class="min-w-0 [overflow-wrap:anywhere]">Marcory, Zone 4, Abidjan</span>
+   976→</a>
+   977→</li>
+   978→<li>
+   979→<a href="https://www.instagram.com/sekoba_coiffure_abidjan/" target="_blank" rel="noopener noreferrer" class="flex min-w-0 items-center gap-2.5 py-3 transition-colors duration-200 hover:text-brown-900 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100">
+   980→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="shrink-0 text-[0.76rem] text-gold-500" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+   981→<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+   982→</path>
+   983→</svg>
+   984→<span class="min-w-0 [overflow-wrap:anywhere]">@sekoba_coiffure_abidjan</span>
+   985→</a>
+   986→</li>
+   987→</ul>
+   988→</div>
+   989→<div class="min-w-0 border-t border-gold-500/14 pt-5 text-center sm:col-span-2 sm:pt-6 lg:col-span-1 lg:border-t-0 lg:px-8 lg:pt-0" style="opacity:0;transform:translateY(14px) translateZ(0)">
+   990→<div class="flex items-center justify-center gap-4 text-gold-500">
+   991→<div class="h-[2px] w-12 rounded-full bg-gold-500">
+   992→</div>
+   993→<h4 class="text-[11px] font-semibold uppercase tracking-[0.28em] sm:text-xs">Horaires</h4>
+   994→</div>
+   995→<ul class="mx-auto mt-4 w-fit space-y-1.5 text-left text-[0.82rem] leading-[1.5] text-brown-700 sm:text-[0.86rem]">
+   996→<li>Lun – Jeu<!-- --> : <!-- -->09:00 - 18:00</li>
+   997→<li>Ven<!-- --> : <!-- -->09:00 - 19:00</li>
+   998→<li>Sam<!-- --> : <!-- -->08:00 - 19:00</li>
+   999→<li>Dim<!-- --> : <!-- -->Fermé</li>
+  1000→</ul>
+  1001→</div>
+  1002→</div>
+  1003→</div>
+  1004→<div class="border-t border-gold-500/14">
+  1005→<div class="mx-auto flex max-w-[1440px] flex-col gap-3 px-5 py-2.5 text-[clamp(0.66rem,2.6vw,0.72rem)] text-brown-500 sm:px-7 sm:text-[0.72rem] lg:flex-row lg:items-center lg:justify-between lg:px-8">
+  1006→<p>© <!-- -->2026<!-- -->
+  1007→<!-- -->Sekoba Coiffure<!-- -->. Tous droits réservés.</p>
+  1008→<div class="flex flex-col items-start gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5 sm:gap-y-2">
+  1009→<a class="py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100" href="/terms">Mentions légales</a>
+  1010→<a class="py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100" href="/privacy">Politique de confidentialité</a>
+  1011→<a class="py-2 transition-colors duration-200 hover:text-gold-600 sm:py-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100" href="/terms">CGV</a>
+  1012→<button type="button" aria-label="Retour en haut de la page" class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold-500/22 bg-cream-50/35 text-gold-600 transition-colors duration-200 hover:border-gold-500/42 hover:bg-cream-50/60 hover:text-gold-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-100">
+  1013→<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-[0.8rem]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+  1014→<path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+  1015→</path>
+  1016→</svg>
+  1017→</button>
+  1018→</div>
+  1019→</div>
+  1020→</div>
+  1021→</footer>
+  1022→</div>

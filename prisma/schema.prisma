@@ -1,0 +1,28 @@
+// Schéma Prisma — Sekoba Coiffure
+// Stockage des messages de contact et des inscriptions newsletter.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Messages envoyés via le formulaire de contact
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+// Inscriptions à la newsletter
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
