@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-node_modules
+# Dependencies
+node_modules/
 /.pnp
 .pnp.*
 .yarn/*
@@ -9,46 +9,115 @@ node_modules
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+bun.lockb
 
-# testing
+# Testing
 /coverage
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
 
-# next.js
+# Next.js
 /.next/
 /out/
+.next/
+next-env.d.ts
 
-# production
+# Production
 /build
+/dist
 
-# misc
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
 .DS_Store
-*.pem
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
 
-# debug
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-local-*
-.claude
-.z-ai-config
-*.log
+lerna-debug.log*
 dev.log
 dev.out.log
-test
-prompt
-
 server.log
-# Skills directory
+
+# Environment Variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Local Development
+local-*
+.claude/
+.z-ai-config
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+/db/*.db
+/prisma/*.db
+
+# Uploads/Downloads
+/upload/*
+/download/*
+!/upload/.gitkeep
+!/download/.gitkeep
+
+# Cache
+.cache/
+.temp/
+.tmp/
+
+# Certificates and Keys
+*.pem
+*.key
+*.cert
+*.crt
+
+# Test/Temporary Files
+test/
+prompt
 /skills/
+
+# Tool Results
+/tool-results/*
+!/tool-results/.gitkeep
+
+# Examples (if needed, uncomment)
+# /examples/*
+# !/examples/.gitkeep
